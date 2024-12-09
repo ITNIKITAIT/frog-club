@@ -35,10 +35,10 @@ const Footer = () => {
                         </a>
                     </nav>
                     <ul className="flex items-center gap-8">
-                        <FaTelegram className="w-12 h-12 text-white cursor-pointer" />
-                        <FaXTwitter className="w-12 h-12 text-white cursor-pointer" />
-                        <FaYoutube className="w-12 h-12 text-white cursor-pointer" />
-                        <FaDiscord className="w-12 h-12 text-white cursor-pointer" />
+                        <FaTelegram className="w-12 h-12 text-white hover:text-orange active:text-lightgreen cursor-pointer transition-all" />
+                        <FaXTwitter className="w-12 h-12 text-white hover:text-orange active:text-lightgreen cursor-pointer transition-all" />
+                        <FaYoutube className="w-12 h-12 text-white hover:text-orange active:text-lightgreen cursor-pointer transition-all" />
+                        <FaDiscord className="w-12 h-12 text-white hover:text-orange active:text-lightgreen cursor-pointer transition-all" />
                     </ul>
                 </div>
                 <div className="mt-9">
