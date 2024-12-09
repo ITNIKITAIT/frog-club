@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.cdnfonts.com/css/montserrat');
+@import url('https://fonts.cdnfonts.com/css/inter');
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Montserrat', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #fff;
+    color: #030332;
+    scroll-behavior: smooth;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
+}
+
+.btn {
+    background-color: #4aad00;
+    color: #fff;
+    border-radius: 12px;
+    padding: 22px 24px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 16px;
+    font-family: 'Inter', sans-serif;
+    transition: 0.15s;
+}
+
+@media screen and (max-width: 475px) {
+    .btn {
+        font-size: 18px;
+        padding: 18px 20px;
+    }
+}
+
+.btn:hover {
+    background-color: #57cb00;
+}
+
+.btn:active {
+    background-color: #4aad00;
+}
